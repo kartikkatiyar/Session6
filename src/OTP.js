@@ -10,9 +10,11 @@ export const OTP = () => {
           clearInterval(intervalID);
           setTimer(5);
         }
-        return prev - 1;
+        else{
+            return prev - 1;
+        }
       });
-    }, 100);
+    }, 1000);
   };
 
   return (
